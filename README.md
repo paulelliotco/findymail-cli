@@ -22,10 +22,11 @@ It wraps the confirmed Findymail endpoints behind a non-interactive JSON-first s
 npm install -g @paulelliot/findymail-cli
 ```
 
-Or run it without installing globally:
+Or install it locally in a project and run it with `npx`:
 
 ```bash
-npx @paulelliot/findymail-cli findymail --help
+npm install @paulelliot/findymail-cli
+npx findymail --help
 ```
 
 For local development:
