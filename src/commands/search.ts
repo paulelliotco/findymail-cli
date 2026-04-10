@@ -16,6 +16,12 @@ export function createSearchCommand(): Command {
   })
 
   command.addCommand(createPostBodyCommand({
+    name: 'business-profile',
+    description: 'Find a work email from a LinkedIn profile URL',
+    path: '/api/search/business-profile',
+    examples: ["findymail search business-profile --json '{\"linkedin_url\":\"https://linkedin.com/in/ada\"}'"],
+  }))
+  command.addCommand(createPostBodyCommand({
     name: 'name',
     description: 'Find an email from a person name and company domain',
     path: '/api/search/name',

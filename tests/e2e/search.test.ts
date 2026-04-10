@@ -6,6 +6,7 @@ import { startJsonServer } from '../helpers/server'
 const cwd = '/Users/paul/CascadeProjects/contributions/findymail-cli'
 
 const searchCases = [
+  { name: 'business-profile', path: '/api/search/business-profile', body: '{"linkedin_url":"https://linkedin.com/in/ada"}' },
   { name: 'name', path: '/api/search/name', body: '{"name":"Ada Lovelace","domain":"example.com"}' },
   { name: 'domain', path: '/api/search/domain', body: '{"domain":"example.com","roles":["CEO"]}' },
   { name: 'company', path: '/api/search/company', body: '{"domain":"example.com"}' },
