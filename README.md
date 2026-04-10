@@ -1,5 +1,7 @@
 # findymail-cli
 
+Independent, unofficial CLI for the Findymail API. It is not affiliated with, endorsed by, or maintained by Findymail.
+
 Agent-friendly CLI for the Findymail API.
 
 It wraps the confirmed Findymail endpoints behind a non-interactive JSON-first shell interface so coding agents can call it reliably.
@@ -17,13 +19,20 @@ It wraps the confirmed Findymail endpoints behind a non-interactive JSON-first s
 ## Install
 
 ```bash
-pnpm install
-pnpm build
+npm install -g @paulelliotco/findymail-cli
 ```
 
-Run locally during development:
+Or run it without installing globally:
 
 ```bash
+npx @paulelliotco/findymail-cli findymail --help
+```
+
+For local development:
+
+```bash
+pnpm install
+pnpm build
 pnpm dev -- --help
 ```
 
