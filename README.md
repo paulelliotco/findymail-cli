@@ -18,6 +18,8 @@ It wraps the confirmed Findymail endpoints behind a non-interactive JSON-first s
 
 ## Install
 
+Requires Node 20 or newer.
+
 ```bash
 npm install -g @paulelliot/findymail-cli
 ```
