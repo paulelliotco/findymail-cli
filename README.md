@@ -19,13 +19,13 @@ It wraps the confirmed Findymail endpoints behind a non-interactive JSON-first s
 ## Install
 
 ```bash
-npm install -g @paulelliotco/findymail-cli
+npm install -g @paulelliot/findymail-cli
 ```
 
 Or run it without installing globally:
 
 ```bash
-npx @paulelliotco/findymail-cli findymail --help
+npx @paulelliot/findymail-cli findymail --help
 ```
 
 For local development:
@@ -63,6 +63,7 @@ cat payload.json | findymail verify --stdin
 ### Search
 
 ```bash
+findymail search business-profile --json '{"linkedin_url":"https://linkedin.com/in/ada"}'
 findymail search name --json '{"name":"Ada Lovelace","domain":"example.com"}'
 findymail search domain --json '{"domain":"example.com","roles":["CEO"]}'
 findymail search company --json '{"domain":"example.com"}'

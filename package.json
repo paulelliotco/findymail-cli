@@ -1,10 +1,10 @@
 {
-  "name": "@paulelliotco/findymail-cli",
+  "name": "@paulelliot/findymail-cli",
   "version": "0.1.0",
   "description": "Unofficial agent-friendly CLI for the Findymail API",
   "type": "module",
   "bin": {
-    "findymail": "./dist/src/cli.js"
+    "findymail": "dist/src/cli.js"
   },
   "files": [
     "dist/src",
@@ -33,6 +33,9 @@
   "homepage": "https://github.com/paulelliotco/findymail-cli#readme",
   "bugs": {
     "url": "https://github.com/paulelliotco/findymail-cli/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "engines": {
     "node": ">=20"

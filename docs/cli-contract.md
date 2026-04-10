@@ -19,6 +19,7 @@ This CLI is designed for coding agents first.
 ## Confirmed Endpoints Covered
 
 - `POST /api/verify`
+- `POST /api/search/business-profile`
 - `POST /api/search/name`
 - `POST /api/search/domain`
 - `POST /api/search/company`
